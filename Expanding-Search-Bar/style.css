@@ -16,8 +16,8 @@ html,body{
 }
 .search-bar-container{
   width: 80%;
-  margin: auto;
-  padding-top: 15em;
+  margin: 0 auto;
+  padding-top: 15em; 
   min-width: 320px;
 }
 .search{
