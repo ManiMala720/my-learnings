@@ -1,0 +1,50 @@
+:root{
+  --font-family : 'Karla',sans-serif;
+  --bg-color : #1e1f2e;
+  --btn-bg : #000;
+  --btn-color : #cbcbcb;
+  --btn-color-hover : #fff;
+  --btn-border-color1 : #eeaf61;
+  --btn-border-color2 : #fb9862;
+  --btn-border-color3 : #ee5d6c;
+  --btn-border-color4 : #ce4993;
+  --btn-border-color5 : #6a0d83;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+html,body{
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.btn-border{
+  background: linear-gradient(115deg,var(--btn-border-color1),var(--btn-border-color2),
+  var(--btn-border-color3),var(--btn-border-color4),var(--btn-border-color5));
+  padding: 0.3em;
+}
+.btn{
+  font-size: 1.5rem;
+  border: none;
+  padding: 1em 1.5em;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  letter-spacing: 0.1em;
+}
+.btn-border:hover{
+  background: linear-gradient(115deg,var(--btn-border-color5),var(--btn-border-color4),
+  var(--btn-border-color3),var(--btn-border-color2),var(--btn-border-color1));
+}
+.btn-border:hover .btn{
+  color: var(--btn-color-hover);
+  padding: 1.1em 1.6em;
+  cursor: pointer;
+}
