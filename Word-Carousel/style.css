@@ -1,0 +1,52 @@
+:root{
+  --word-bg: #5134ff;
+  --word-color: #ffd700;
+  --primary-color: #ffffff;
+  --body-bg: #0f172a;
+  --font-family: 'Courier New', Courier, monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+  font-family: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: var(--primary-color);
+  font-weight: 900;
+}
+h1::after{
+  content: "";
+  padding: .4em;
+  margin-left: .3em;
+  background-color: var(--word-bg);
+  color: var(--word-color);
+  border-radius: 10px;
+  animation: swap infinite 3.5s;
+}
+@keyframes swap{
+  0%{
+    content: "HTML";
+  }
+  25%{
+    content: "CSS";
+  }
+  50%{
+    content: "JavaScript";
+  }
+  75%{
+    content: "React.js";
+  }
+  100%{
+    content: "SQL";
+  }
+}

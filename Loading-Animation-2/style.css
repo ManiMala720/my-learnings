@@ -1,0 +1,44 @@
+:root{
+  --square1-color: orange;
+  --square2-color: white;
+  --square3-color: green;
+  --body-bg: #0f172a;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  width: 2.5em;
+  height: 2.5em;
+  margin: 1em;
+  transform: rotate(45deg);
+  animation: rotation infinite 1.5s;
+}
+.square-1{
+  background-color: var(--square1-color);
+}
+.square-2{
+  background-color: var(--square2-color);
+}
+.square-3{
+  background-color: var(--square3-color);
+}
+@keyframes rotation{
+  from{
+    transform: rotate(-45deg);
+  }
+  to{
+    transform: rotate(45deg);
+  }
+}
