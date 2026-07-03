@@ -5,21 +5,49 @@ A collection of small projects and UI components created while learning **HTML**
 ## 🚀 Projects
 
 ### 🎨 Colourful Button
-
 A simple project demonstrating a colourful button built with HTML and CSS.
 
-**Live Demo:**
+**Live Demo:**  
 https://manimala720.github.io/my-learnings/Colourful-Button/
 
 ---
 
 ### 🔍 Expanding Search Bar
-
 A responsive expanding search bar built using HTML and CSS. The search field smoothly expands when focused, providing a clean and modern user experience.
 
-**Live Demo:**
+**Live Demo:**  
 https://manimala720.github.io/my-learnings/Expanding-Search-Bar/
 
 ---
 
-More HTML and CSS projects will be added as I continue learning and building.
+### ⏳ Loading Animation 1
+A creative loading animation built with HTML and CSS using modern animation techniques.
+
+**Live Demo:**  
+https://manimala720.github.io/my-learnings/Loading-Animation-1/
+
+---
+
+### 🔄 Loading Animation 2
+A CSS loading animation demonstrating smooth motion using keyframes and transforms.
+
+**Live Demo:**  
+https://manimala720.github.io/my-learnings/Loading-Animation-2/
+
+---
+
+### 🎯 Archery Target
+An archery target created entirely with HTML and CSS using concentric circles and layout techniques.
+
+**Live Demo:**  
+https://manimala720.github.io/my-learnings/Archery-Target/
+
+---
+
+### 📝 Word Carousel
+A smooth word carousel built using HTML and CSS that cycles through words with clean animations.
+
+**Live Demo:**  
+https://manimala720.github.io/my-learnings/Word-Carousel/
+
+---
