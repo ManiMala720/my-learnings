@@ -1,0 +1,45 @@
+:root{
+  --body-bg: #000000;
+  --orange-stripe: #e15307;
+  --white-stripe: #ffffff;
+  --green-stripe: #16af2a;
+  --flag-height: 200px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.flag{
+  height: var(--flag-height);
+  width: calc(var(--flag-height)*7/6);
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+}
+.orange-stripe{
+  background-color: var(--orange-stripe);
+}
+.white-stripe{
+  background-color: var(--white-stripe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orange-circle{
+  height: calc(var(--flag-height)/3*.85);
+  width: calc(var(--flag-height)/3*.85);
+  background-color: var(--orange-stripe);
+  border-radius: 50%;
+}
+.green-stripe{
+  background-color: var(--green-stripe);
+}

@@ -15,10 +15,14 @@ html,body{
   background-color: var(--background-color);
 }
 .search-bar-container{
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 15em; 
+  height: 100vh;
   min-width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-wrapper{
+  width: 350px;
 }
 .search{
   position: absolute;
@@ -32,7 +36,7 @@ html,body{
   clip: rect(0,0,0,0);
 }
 #search-bar{
-  width: 30%;
+  width: 170px;
   border: 1px solid var(--search-border);
   padding-left: 1em;
   line-height: 2em;
@@ -42,7 +46,7 @@ html,body{
   font-weight: 200;
 }
 #search-bar:focus{
-  width: 100%;
+  width: 350px;
   outline: none;
   border: 3px solid var(--search-focus-border);
   transition: all .3s;

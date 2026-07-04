@@ -1,0 +1,36 @@
+:root{
+  --blue-stripe: #002495;
+  --white-stripe: #fff;
+  --red-stripe: #ed2938;
+  --body-bg: #000000;
+  --flag-height: 200px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.flag{
+  height: var(--flag-height);
+  width: calc((var(--flag-height))*3/2);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.blue-stripe{
+  background-color: var(--blue-stripe);
+}
+.white-stripe{
+  background-color: var(--white-stripe);
+}
+.red-stripe{
+  background-color: var(--red-stripe);
+}

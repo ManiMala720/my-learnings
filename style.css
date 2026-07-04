@@ -19,7 +19,7 @@ html,body{
   justify-content: center;
   flex-wrap: wrap;
   padding: 80px 20px;
-  gap: 35px;
+  gap: 60px;
 }
 .card{
   display: flex;

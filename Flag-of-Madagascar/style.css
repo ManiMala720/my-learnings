@@ -1,0 +1,38 @@
+:root{
+  --body-bg: #000000;
+  --white-stripe: #ffffff;
+  --red-stripe: #fc3e32;
+  --green-stripe: #007e39;
+  --flag-height: 200px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.flag{
+  height: var(--flag-height);
+  width: calc(var(--flag-height)*3/2);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+}
+.white-stripe{
+  background-color: var(--white-stripe);
+  grid-row: 1/3;
+}
+.red-stripe{
+  background-color: var(--red-stripe);
+}
+.green-stripe{
+  background-color: var(--green-stripe);
+}

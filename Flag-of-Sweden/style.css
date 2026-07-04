@@ -1,0 +1,42 @@
+:root{
+  --body-bg: #000000;
+  --flag-bg: #0269a6;
+  --cross: #fecc00;
+  --flag-height: 200px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flag{
+  height: var(--flag-height);
+  width: calc(var(--flag-height)*8/5);
+  background-color: var(--flag-bg);
+  position: relative;
+}
+.cross{
+  background-color: var(--cross);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.cross1{
+  height: calc(var(--flag-height)*0.2);
+  width: 100%;
+}
+.cross2{
+  width: calc(var(--flag-height)*0.2);
+  height: 100%;
+  left: 30%;
+}
