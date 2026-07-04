@@ -2,6 +2,9 @@
 
 A collection of small projects and UI components created while learning **HTML** and **CSS**. Each project focuses on a specific concept, animation, layout, or CSS technique.
 
+**Home Page:**
+https://manimala720.github.io/my-learnings/
+
 ## 🚀 Projects
 
 ### 🎨 Colourful Button
