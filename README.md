@@ -178,3 +178,10 @@ https://manimala720.github.io/my-learnings/Jeopardy-Flashcard/
 
 ---
 
+### 🖥️ CodePen Tile
+
+A responsive CodePen-inspired profile tile built with HTML and CSS, featuring a clean card layout and modern styling.
+
+**Live Demo:**
+https://manimala720.github.io/my-learnings/Codepen-Tile/
+---
