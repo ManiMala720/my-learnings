@@ -17,9 +17,10 @@ html,body{
   background-color: var(--body-bg);
 }
 .card-container{
+  height: 100vh;
   display: flex;
   justify-content: center;
-  padding-top: 5em;
+  align-items: center;
 }
 .card{
   max-width: 350px;
