@@ -1,0 +1,43 @@
+:root{
+  --body-bg: #d9d9d9;
+  --card-height: 300px;
+  --card-border: #000000;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 700;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spades{
+  height: var(--card-height);
+  width: calc(var(--card-height)*2/3);
+  border: 2px solid var(--card-border);
+  border-radius: 5px;
+  padding: .5em;
+  display: grid;
+}
+.top>div:nth-child(2),.bottom>div:nth-child(2){
+  font-size: 2.5em;
+}
+.center{
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom{
+  transform: rotate(180deg);
+}
+.top>div:first-child, .bottom>div:first-child{
+  padding-left: 3px;
+}

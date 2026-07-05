@@ -1,0 +1,48 @@
+:root{
+  --stage-1: 25%;
+  --stage-2: 50%;
+  --stage-3: 75%;
+  --stage-4: 100%;
+  --body-bg: #2d3748;
+  --progress-bg: #e9d5ff;
+  --progress-status: #8b5cf6;
+  --progress-bar-height: 60px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-bar{
+  width: 50%;
+  height: var(--progress-bar-height);
+  background-color: var(--progress-bg);
+  border-radius: 30px;
+}
+.progress-status{
+  width: 50%;
+  height: var(--progress-bar-height);
+  background-color: var(--progress-status);
+  border-radius: 30px;
+}
+.stage-1{
+  width: var(--stage-1);
+}
+.stage-2{
+  width: var(--stage-2);
+}
+.stage-3{
+  width: var(--stage-3);
+}
+.stage-4{
+  width: var(--stage-4);
+}

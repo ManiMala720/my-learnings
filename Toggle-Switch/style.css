@@ -1,0 +1,47 @@
+:root{
+  --body-bg: #d9d9d9;
+  --toggle-switch-bg: #232428;
+  --toggle-border: #232428;
+  --toggle-bg: #fff;
+  --toggle-height: 60px;
+  --toggle-width: 160px;
+  --circle-size: 50px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle-label{
+  width: var(--toggle-width);
+  height: var(--toggle-height);
+  border: 3px solid var(--toggle-border);
+  background-color: var(--toggle-bg);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: .25em;
+}
+.toggle-input{
+  display: none;
+}
+.toggle-switch{
+  width: var(--circle-size);
+  height: var(--circle-size);
+  background-color: var(--toggle-switch-bg);
+  border-radius: 50%;
+  transition: all .3s;
+}
+.toggle-input:checked~.toggle-switch{
+  transform: translateX(calc(var(--toggle-width) - var(--circle-size) - .75em));
+  cursor: pointer;
+}
