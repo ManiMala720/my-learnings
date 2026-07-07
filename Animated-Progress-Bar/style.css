@@ -1,0 +1,47 @@
+:root{
+  --body-bg: grey;
+  --progressbar-height: 2.5em;
+  --progressbar-bg: #ffffff;
+  --start: red;
+  --middle: blue;
+  --finish: green;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  background-color: var(--body-bg);
+}
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.progress-bar{
+  width: 40%;
+  height: var(--progressbar-height);
+  background-color: var(--progressbar-bg);
+  border-radius: 30px;
+}
+.progress-status{
+  background-color: red;
+  width: 10%;
+  animation: changeprogress linear infinite 5s;
+}
+@keyframes changeprogress{
+  50%{
+    width: 50%;
+    background-color: var(--middle);
+  }
+  75%{
+    width: 100%;
+    background-color: var(--finish);
+  }
+  100%{
+    width: 100%;
+    background-color: var(--finish);
+  }
+}
