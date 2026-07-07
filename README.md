@@ -186,3 +186,30 @@ A responsive CodePen-inspired profile tile built with HTML and CSS, featuring a 
 https://manimala720.github.io/my-learnings/Codepen-Tile/
 
 ---
+
+### ⏳ Loading Animation 3
+
+A smooth CSS loading animation featuring modern motion effects and seamless looping.
+
+**Live Demo:**
+https://manimala720.github.io/my-learnings/Loading-Animation-3/
+
+---
+
+### 📸 Instagram Stories Menu
+
+A responsive Instagram-style stories built with HTML and CSS, featuring circular story thumbnails and a clean, modern interface.
+
+**Live Demo:**
+https://manimala720.github.io/my-learnings/Instagram-Stories-Menu/
+
+---
+
+### 📊 Animated Progress Bar
+
+An animated progress bar created with HTML and CSS, featuring smooth fill animations, percentage indicators, and a responsive design.
+
+**Live Demo:**
+https://manimala720.github.io/my-learnings/Animated-Progress-Bar/
+
+---
